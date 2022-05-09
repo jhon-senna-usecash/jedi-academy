@@ -1,0 +1,7 @@
+<div>
+  <button (click)="clicked()">Student: {{student.name}}</button>
+
+  <div *ngIf="student.isJedi">
+    Jedi Template: {{student?.temple}}
+  </div>
+</div>
